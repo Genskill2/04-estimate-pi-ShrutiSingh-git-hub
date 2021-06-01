@@ -12,6 +12,18 @@ float frandom() {
 }
 
 int main(void) {
+  for(int  i = 0; i < n; i++)
+      {
+          x = frandom();
+          y = frandom();
+
+          if( x*x + y*y <= 1)
+            c++;
+      }
+      return 4*((float)c/n);
+
+
+    }
   float pi0;
   float pi1;
   
