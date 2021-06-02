@@ -5,7 +5,7 @@
 
 float wallis_pi(int);
 
-int main(void) {
+int main(void)  {
   float wallis_pi(int n)
 {
   float pi = 1;
