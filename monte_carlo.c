@@ -13,6 +13,8 @@ float frandom() {
 
 int main(void) {
   float mc_pi(int n) {
+    float x , y ;
+    int c = 0 ;
   for(int  i = 0; i < n; i++)
       {
           x = frandom();
